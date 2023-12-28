@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourmsLight</title>
+</head>
+<body>
+  <h1> I'm an Electrician 👩‍🦰🧓</h1>
+  <script>
+    var a = document.querySelector("h1");
+    function color(){
+      var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+      a.style.backgroundColor = randomColor;
+    }
+    setInterval(color,500)
+  </script>
+</body>
+</html>
